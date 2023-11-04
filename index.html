@@ -518,24 +518,28 @@
         <div class="footer-field-wrapper">
           <p class="subscribe-text">Subscribe</p>
           <form class="footer-feedback-form">
-            <label class="footer-field-label" for="footer-email"> </label>
-
-            <input
-              class="footer-field-mail"
-              type="email"
-              name="user_email"
-              id="footer-email"
-              placeholder="E-mail"
-            />
+            <label class="footer-field-label" for="footer-email">
+              <input
+                class="footer-field-mail"
+                type="email"
+                name="user_email"
+                id="footer-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <div class="footer-send-button">
+              <button
+                class="footer-btn"
+                type="submit"
+                aria-label="message button"
+              >
+                Subscribe
+                <svg class="footer-btn-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
-        </div>
-        <div class="footer-send-button">
-          <button class="footer-btn" type="submit" aria-label="message button">
-            Subscribe
-            <svg class="footer-btn-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
         </div>
       </div>
     </footer>
@@ -629,9 +633,9 @@
             <input
               class="review-form-checkbox visually-hidden"
               type="checkbox"
-              name="user-privacy"
+              name="user-policy"
               value="true"
-              id="user-privacy"
+              id="user-policy"
               required
             />
             <label class="review-form-checkbox-label" for="user-policy">

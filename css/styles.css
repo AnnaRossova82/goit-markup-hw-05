@@ -756,8 +756,8 @@ button {
   border: none;
 }
 
-.modal-close-btn:hover + .modal-close-btn-icon,
-.modal-close-btn:focus + .modal-close-btn-icon {
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
   fill: #ffffff;
 }
 
@@ -816,7 +816,7 @@ button {
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .review-form-field-icon {
@@ -915,7 +915,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: flex;
+  display: block;
   padding: 16px 32px;
   align-items: center;
   text-align: center;
