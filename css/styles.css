@@ -659,10 +659,6 @@ button {
   margin-right: 80px;
 }
 
-.footer-send-button {
-  justify-content: center;
-}
-
 .footer-btn {
   padding: 8px 24px;
   display: flex;
@@ -816,7 +812,7 @@ button {
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .review-form-field-icon {
