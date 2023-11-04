@@ -815,6 +815,10 @@ button {
   margin-bottom: 8px;
 }
 
+.comment-wrapper {
+  margin-bottom: 16px;
+}
+
 .review-form-field-icon {
   position: absolute;
   top: 50%;
